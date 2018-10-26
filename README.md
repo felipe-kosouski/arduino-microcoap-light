@@ -1,3 +1,39 @@
+# Arduino CoAP Smart Lighting Application
+
+This project is part of my Undergraduate Thesis of the Federal Technological University of Paraná (UTFPR - Brasil), from the Technology in Internet Systems course.
+The objective of this project consists in develop and implement a solution for Smart Lighting utilizing concepts and technologies of Internet of Things, by making use of a physical circuit and a Web Service that talk to each other via Internet, making it possible that we retrieve the actual state of a lamp, as well as light it or turn ir off.
+
+Este projeto faz parte do meu Trabalho de Conclusão de Curso da Universidade Federal Tecnológica do Paraná (UTFPR), do curso de Tecnologia em Sistemas para Internet.
+O objetivo do projeto consiste em desenvolver e implementar uma solução para Smart Lighting utilizando tecnologias e conceitos da IoT, fazendo uso de um circuito físico e um Web Service que se comuniquem entre si por meio da rede e façam com que seja possível obter o estado atual de uma lâmpada, bem como acendê-la ou apagá-la remotamente.
+
+## Requirements
+
+- Arduino Mega 2560
+- Shield Ethernet
+- Relay Module (relé)
+- Lamp and socket
+- Router
+- RIOT OS
+- Gcc
+- Pyterm
+- Ruby on Rails
+
+### Used for this project
+- All tecnologies from Requirements
+- Linux (Debian)
+- HTML 5
+- CoAP Protocol
+
+
+#### Instalation
+- Work in progress
+
+##### Running the project
+- Work in progress
+
+
+This project if forked from https://github.com/1248/microcoap
+
 microcoap
 =========
 

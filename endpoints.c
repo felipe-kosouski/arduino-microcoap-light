@@ -10,10 +10,10 @@ void build_rsp(void);
 
 #ifdef ARDUINO
 #include "Arduino.h"
-static int led = 6;
+static int lamp = 9;
 void endpoint_setup(void)
 {                
-    pinMode(led, OUTPUT);     
+    pinMode(lamp, OUTPUT);     
     build_rsp();
 }
 #else
@@ -44,7 +44,7 @@ static int handle_put_light(coap_rw_buffer_t *scratch, const coap_packet_t *inpk
     {
         light = '1';
 #ifdef ARDUINO
-        digitalWrite(led, HIGH);
+        digitalWrite(lamp, LOW);
 #else
         printf("ON\n");
 #endif
@@ -54,7 +54,7 @@ static int handle_put_light(coap_rw_buffer_t *scratch, const coap_packet_t *inpk
     {
         light = '0';
 #ifdef ARDUINO
-        digitalWrite(led, LOW);
+        digitalWrite(lamp, HIGH);
 #else
         printf("OFF\n");
 #endif
@@ -110,4 +110,3 @@ void build_rsp(void)
         ep++;
     }
 }
-
