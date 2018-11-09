@@ -12,27 +12,29 @@ O objetivo do projeto consiste em desenvolver e implementar uma solução para S
 - Shield Ethernet
 - Relay Module (relé)
 - Lamp and socket
-- Router
-- RIOT OS
 - Gcc
-- Pyterm
-- Ruby on Rails
+- Arduino IDE
 
 ### Used for this project
 - All tecnologies from Requirements
-- Linux (Debian)
-- HTML 5
+- MacOS High Sierra
 - CoAP Protocol
 
-
 #### Instalation
-- Work in progress
+- Clone repository
+- Open project in Arduino IDE
+- Connect an Arduino board
+- Map the pin to where the relay is
+- Compile the code
+- Flash to board
+- Open serial monitor in IDE to retrieve IP Address
 
 ##### Running the project
-- Work in progress
+- The API from https://github.com/felipe-kosouski/smart-light-coap-api must be configured to connect to the IP Address retrieved from the serial monitor
 
+==========================================================================================================
 
-This project if forked from https://github.com/1248/microcoap
+The microcoap server project is forked from https://github.com/1248/microcoap
 
 microcoap
 =========
